@@ -1,6 +1,6 @@
 /* Service worker do Meu dinheiro: deixa o app abrir sem internet.
    Para forçar atualização em todos os aparelhos, mude o número da versão abaixo. */
-var CACHE = 'meu-dinheiro-v2';
+var CACHE = 'meu-dinheiro-v1';
 var SHELL = ['./', 'index.html', 'manifest.webmanifest', 'icon-180.png', 'icon-192.png', 'icon-512.png'];
 
 self.addEventListener('install', function (e) {
